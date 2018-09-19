@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>登録画面</title>
+</head>
+<body>
+
+<h2>スケジュール管理アプリ</h2>
+
+アクセスありがとうございます。ここは、スケジュール管理アプリの登録画面です。<br>
+
+<p>
+～登録方法～<br>
+１．下の欄に貴方のメールアドレスを入力してください。<br>
+２．入力したアドレスにメールが届きます。<br>
+３．届いたメールからリンクで飛んで、パスワード設定と届いた認証番号を入力してください。<br>
+４．成功とでたら登録完了です。<br>
+</p>
+
+<p>
+ここに登録するメールアドレスを入力してください。<br>
+<form action="mailsent.php" method="post">
+<input type="text" name="mail" placeholder="example@gmail.com"><br>
+<input type="submit" value="送信">
+</form>
+</p>
+
+<!--
+<p>
+DB削除。(デバッグ用)<br>
+<form action="dbdel.php" method="post">
+<input type="submit" value="DB初期化">
+</form>
+</p>
+-->
+
+</body>
+</html>
